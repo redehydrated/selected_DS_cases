@@ -1,10 +1,15 @@
 
 # Oil Well Location Selection Project
 
-## STACK
-Used Libraries: pandas, numpy, matplotlib, scikit-learn, scipy.
-Data Manipulation Techniques: Data splitting, data sampling, data cleaning, normalization, feature selection, outlier removal.
-Approaches: Linear regression, Bootstrap method, Confidence intervals, Exploratory Data Analysis (EDA), cross-validation, mean squared error (MSE) calculation, risk assessment.
+## Project Summary:
+The dataset consists of geological exploration data from three regions, including features like oil reserves and geological characteristics. The business goal was to identify the most profitable region for drilling new oil wells.
+In this project, a linear regression model was trained on the dataset to predict oil reserves, and the Bootstrap method was applied to assess financial risks by calculating confidence intervals for the potential profit. Data manipulation techniques such as data splitting, sampling, and normalization were used to prepare the data, and exploratory data analysis (EDA) was performed to understand the dataset’s structure.
+The results indicated that Region 1 had the highest potential profit with the lowest risk of loss, making it the optimal choice for drilling. This project utilized key approaches such as linear regression, Bootstrap analysis, and confidence interval calculation to make data-driven business decisions.
+
+## Stack
+- Used Libraries: pandas, numpy, matplotlib, scikit-learn, scipy.
+- Data Manipulation Techniques: Data splitting, data sampling, data cleaning, normalization, feature selection, outlier removal.
+- Approaches: Linear regression, Bootstrap method, Confidence intervals, Exploratory Data Analysis (EDA), cross-validation, mean squared error (MSE) calculation, risk assessment.
 
 ## 1. Brief Description of the Task
 The task involves selecting an optimal location for drilling a new oil well based on geological survey data. The goal is to build a machine learning model that predicts oil reserves in various regions and determine which region offers the highest potential profit. The project includes risk analysis using the Bootstrap method to ensure profitability.
